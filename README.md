@@ -10,9 +10,9 @@
 - [Project Poster](#project-poster)
 - [Getting Started:](#getting-started)
 - [What's included](#whats-included)
-    - [Scenes:](#scenes)
-    - [Scripts:](#scripts)
-    - [Shader:](#shader)
+    - [Scenes](#scenes)
+    - [Scripts](#scripts)
+    - [Shader](#shader)
 - [Step by step guide to create an Augmented Mirror:](#step-by-step-guide-to-create-an-augmented-mirror)
 - [Acknowledgments](#acknowledgments)
   
@@ -32,13 +32,13 @@ Assets/
 ├── Scripts/
 └── Shader/
 ```
-####  Scenes: 
+####  Scenes 
 Our Lego demo scene is provided.
-#### Scripts: 
+#### Scripts
 * CameraControls.cs: This script enable users to move around using the keyboard. But it's not used in the demo since the camera/HMD is moving with the user directly.
 * PlannarReflectionsProbe.cs: This script implements the augmented mirror and rendering the virtual mirror content to a custome texture. 
 
-#### Shader:
+#### Shader
 Mirror_material.shader: This is the custome shader for generating the mirror texture. 
 Mirror_material.mat: Material created from the mirror shader. 
   
