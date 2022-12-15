@@ -9,6 +9,12 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+Temp/
+UserSettings/
+QCAR/
+App/
+AppWindows/
+
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -21,7 +27,11 @@
 
 # Visual Studio cache directory
 .vs/
-
+.vsconfig
+.vs - Shortcut.lnk
+*.tgz
+*.backup
+*.backup0
 # Gradle cache directory
 .gradle/
 

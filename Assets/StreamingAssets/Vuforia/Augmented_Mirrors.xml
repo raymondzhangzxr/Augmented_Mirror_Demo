@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="ARMarkerRealSize.Left" size="0.100000 0.100000"/>
+        <ImageTarget name="ARMarkerRealSize.Right" size="0.100000 0.100000"/>
+        <ImageTarget name="ARMarkerRealSize.Front" size="0.100000 0.100000"/>
+        <ImageTarget name="ARMarkerRealSize.Top" size="0.100000 0.100000"/>
+        <ImageTarget name="ARMarkerRealSize.Back" size="0.100000 0.100000"/>
+        <ImageTarget name="ARMarker.Left" size="10.000000 10.000000"/>
+        <ImageTarget name="ARMarker.Right" size="10.000000 10.000000"/>
+        <ImageTarget name="ARMarker.Front" size="10.000000 10.000000"/>
+        <ImageTarget name="ARMarker.Top" size="10.000000 10.000000"/>
+        <ImageTarget name="ARMarker.Back" size="10.000000 10.000000"/>
+        <MultiTarget name="ARMarkerRealSize">
+            <Part name="ARMarkerRealSize.Left" translation="-0.05000000074505806 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="ARMarkerRealSize.Right" translation="0.05000000074505806 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="ARMarkerRealSize.Front" translation="0 0 0.05000000074505806" rotation="AD: 1 0 0 0"/>
+            <Part name="ARMarkerRealSize.Back" translation="0 0 -0.05000000074505806" rotation="AD: 0 1 0 180"/>
+            <Part name="ARMarkerRealSize.Top" translation="0 0.05000000074505806 0" rotation="AD: 1 0 0 -90"/>
+        </MultiTarget>
+        <MultiTarget name="ARMarker">
+            <Part name="ARMarker.Left" translation="-5.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="ARMarker.Right" translation="5.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="ARMarker.Front" translation="0 0 5.0" rotation="AD: 1 0 0 0"/>
+            <Part name="ARMarker.Back" translation="0 0 -5.0" rotation="AD: 0 1 0 180"/>
+            <Part name="ARMarker.Top" translation="0 5.0 0" rotation="AD: 1 0 0 -90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
