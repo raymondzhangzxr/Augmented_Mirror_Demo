@@ -4,11 +4,16 @@
 <p align="center">
   <img src="figures/demo.gif" alt="gif" width="300" />
 </p>
+
 ## Table of contents
+- [Table of contents](#table-of-contents)
 - [Project Poster](#project-poster)
-- [Getting started](#getting-started)
+- [Getting Started:](#getting-started)
 - [What's included](#whats-included)
-- [Step by step guide to create an Augmented Mirror](#step-by-step-guide-to-create-an-augmented-mirror)
+    - [Scenes:](#scenes)
+    - [Scripts:](#scripts)
+    - [Shader:](#shader)
+- [Step by step guide to create an Augmented Mirror:](#step-by-step-guide-to-create-an-augmented-mirror)
 - [Acknowledgments](#acknowledgments)
   
 ## Project Poster
