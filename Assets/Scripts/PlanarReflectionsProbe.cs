@@ -5,7 +5,6 @@
 
 // Implementation of the plannar reflection probe
 
-// Code from https://github.com/eldskald/planar-reflections-unity
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
